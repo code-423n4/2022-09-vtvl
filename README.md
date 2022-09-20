@@ -16,7 +16,7 @@ The core function of VTVL is to allow users to generate and deploy token vesting
 
 ## Smart Contracts
 
-This folder contains the vesting (and other auxilliary) smart contracts used for _vtvl_ vesting project. It is set up within a `hardhat` environment, so the usual `hardhat` tools are available.
+This folder contains the vesting (and other auxiliary) smart contracts used for _vtvl_ vesting project. It is set up within a `hardhat` environment, so the usual `hardhat` tools are available.
 
 ### FullPremintERC20Token.sol (8 sloc)
 
@@ -70,7 +70,7 @@ Everyone else has just read access to the contract. That includes the ability to
 
 ### Contract design notes for wardens consideration
 
-As part of the business logic, the vesting contract is designed to provide a _trustless_ and automatic way to establish token vesting mechanism through locking tokens inside the vesting smart contract. However, due of the nature of vesting, e.g. empolyee token vesting, our vesting contract is delibrately designed to allow **_admin revocation_** in the circumstances of early employment termination (before the end of vesting period specified).
+As part of the business logic, the vesting contract is designed to provide a _trustless_ and automatic way to establish token vesting mechanism through locking tokens inside the vesting smart contract. However, due of the nature of vesting, e.g. employee token vesting, our vesting contract is deliberately designed to allow **_admin revocation_** in the circumstances of early employment termination (before the end of vesting period specified).
 
 We understand that by allowing admins to have the ultimate power of revoking claims is a dangerous and centralised move in the design, we still think that this revocation design would match the business reality closer. We have added additional `event` (`ClaimRevoked` and `AdminWithdrawn`) as counteraction(s) to keep admin's (revocation) actions transparent and (hopefully accountable) thanks to blockchain's immutable and permissionless nature.
 
