@@ -1,0 +1,731 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q3-2022 / ☑vtvl-sept20
+==============================================================
+
+[09/19/2022 2:22 PM] kartoonjoy (pinned)
+👋 Hello and welcome to the contest channel for the $30K USDC **VTVL** contest!
+
+📆 Contest opens 09/20/2022 8:00 PM (20:00 UTC) and runs through 09/23/2022 8:00 PM (20:00 UTC) (3 days).
+
+Please give a warm welcome to the VTVL team, particularly @endgamebro, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-09-vtvl-contest
+
+{Embed}
+https://code4rena.com/contests/2022-09-vtvl-contest
+Code4rena VTVL contest
+$30,000 USDC
+20 September 2022—23 September 2022
+Code4rena - ARCHIVE-Q3-2022 - ☑vtvl-sept20 [1021425231023312936].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+chefskiss (9) C4Keycap (11) 👋 (6) 🤟 (6) 🎉 (5) ✅ (5) 
+
+[09/19/2022 3:17 PM] kartoonjoy
+Pinned a message.
+
+
+[09/20/2022 9:58 PM] Franfran#5067
+Hey frens 🙂
+
+{Reactions}
+👋 (2) 
+
+[09/20/2022 10:58 PM] .respx
+What does VTVL stand for?
+
+
+[09/21/2022 1:22 AM] 0xnazgul
+Visualise, Track, Vest, Launch https://www.vtvl.io/
+
+{Embed}
+https://www.vtvl.io/
+VTVL | Token Vesting and Management
+Building better tools to empower web3 founders and their communities.
+Code4rena - ARCHIVE-Q3-2022 - ☑vtvl-sept20 [1021425231023312936].txt_Files/v-54D9A.png
+
+{Reactions}
+👍 (2) 
+
+[09/21/2022 2:32 AM] nisha#3278
+Hey everyone! Lawrence @endgamebro and myself are 2 of the 3 cofounders of VTVL 👋🏼 To answer @Respx ‘s question, our name was inspired by SpaceX’s ‘Vertical Takeoff, Vertical Landing’ technology where we aim to help companies successfully launch and manage their tokens, ensuring sustainability throughout the lifecycle of the project hence Visualise, Track, Vest, Launch.
+
+{Reactions}
+❤️ (14) 
+
+[09/21/2022 2:32 AM] nisha#3278
+If you have any questions, please feel free to ping us 🙂
+
+
+[09/21/2022 2:35 AM] ladboy233
+@nisha Hi nisha, I just DMed you.
+
+
+[09/21/2022 2:35 AM] ladboy233
+Thanks.
+
+
+[09/21/2022 3:39 AM] Junnon#3182
+just DMed too
+
+
+[09/21/2022 4:07 AM] adriro
+dmed!
+
+
+[09/21/2022 6:59 AM] supernovahs
+Dmed
+
+
+[09/21/2022 8:04 AM] zzykxx
+@endgamebro dm
+
+
+[09/21/2022 9:49 AM] 0xmatt#3768
+dmed
+
+
+[09/21/2022 10:21 AM] Bahurum#2516
+how is `VariableSupplyERC20Token` related to `VTVLVesting` ?
+
+
+[09/21/2022 10:23 AM] Bahurum#2516
+@endgamebro @nisha
+
+
+[09/21/2022 10:24 AM] _oceansky
+Nice idea, somehow the project simply offer outsourcing of token management. 😀  Kinda unique for me.
+
+
+[09/21/2022 10:25 AM] nisha#3278
+@Junnon @ladboy233小伙子 @adriro @supernova @0xmatt please can you also DM @endgamebro as he’s better positioned to respond to your technical questions!
+
+
+[09/21/2022 10:41 AM] 0xmatt#3768
+dmed @endgamebro - thanks @nisha
+
+
+[09/21/2022 11:16 AM] ladboy233
+ok
+
+
+[09/21/2022 1:29 PM] ladboy233
+@endgamebro Dmed sir!
+
+
+[09/21/2022 3:21 PM] johnnytime
+Glad to participate ❤️
+
+
+[09/21/2022 3:54 PM] trust90
+Anyone from the team I can DM about something ?
+
+
+[09/21/2022 4:30 PM] zhuxket
+dmed
+
+
+[09/21/2022 4:30 PM] zhuxket
+dmed @endgamebro - thanks @nisha
+
+
+[09/21/2022 5:13 PM] supernovahs
+Till now I am not able to find a bug worthy to be under medium or high lol
+
+
+[09/21/2022 5:18 PM] Noah3o6#2496
+this possibly sounds dumb, but which contracts are under scope? Cant find the under scope section on the contest site
+
+
+[09/21/2022 5:18 PM] caventa
+Until now, I don't think the contract has any problem LOL
+
+
+[09/21/2022 5:18 PM] supernovahs
+ya
+
+
+[09/21/2022 5:19 PM] supernovahs
+And only 187 lines to check mainly
+
+
+[09/21/2022 5:19 PM] codingnamekiki
+Scope:
+1.FullPremintERC20Token.sol (8 sloc)
+2.VariableSupplyERC20Token.sol (21 sloc)
+3.AccessProtected.sol (23 sloc)
+4.VTVLVesting.sol (187 sloc)
+
+
+[09/21/2022 5:19 PM] Noah3o6#2496
+thank you
+
+{Reactions}
+hi5 
+
+[09/21/2022 6:00 PM] anonnp
+Can you answer this here? And same for `FullPremintERC20Token` - why are the contracts in `token/` even for audit, the docs don't explain how you plan to use them - it looks like the vesting contract has nothing to do with those, it just works with ERC20 tokens
+
+{Reactions}
+☝️ 
+
+[09/21/2022 6:37 PM] Bahurum#2516
+> hello @Bahurum , in the actually application we would allow user (founders) to do the minting (or importing existing ERC20) and use the tokens for funding the vesting contract 
+> and in the minting case we allow for both Fixed and VariableSupply
+
+{Reactions}
+👍 (2) 
+
+[09/21/2022 6:37 PM] Bahurum#2516
+This is the answer to my question that I got by DM
+
+
+[09/21/2022 8:46 PM] anonnp
+Shall we assume that VTVLVesting will work only with those two ERC20 implementations in the contract or we should assume any ERC20 can be used with it
+
+
+[09/21/2022 9:10 PM] tofunmi
+Any erc20 I believe
+It is in the docs
+
+
+[09/21/2022 11:13 PM] chatch
+@nisha @endgamebro 
+
+vtvl.io mentions `the smart contract VTVL created has been audited by Quantstamp and Certik in May 2022.`
+
+Are these reports available and if so shall we assume any unaddressed issues in those are out of scope?  Or .. did those reports cover some different smart contracts?
+
+
+[09/22/2022 5:28 AM] csanuragjain
+@endgamebro dmed you with few questions
+
+
+[09/22/2022 9:00 AM] johnnytime
+I think I've found a high/medium severity
+
+{Reactions}
+👍 (3) 
+
+[09/22/2022 10:13 AM] illilli000
+@endgamebro @nisha Is VTVLVesting meant to only ever be used as-is, or are there cases where you expect that it will be extended by a project somehow?
+
+
+[09/22/2022 1:03 PM] JohnSmith#1623
+I am not surprised, wardens here are always able to find high severity in smallest blocks of code or in smallest i++ statements.
+I am amazed of their creativity.
+
+{Reactions}
+❤️ (2) 
+
+[09/22/2022 1:25 PM] supernovahs
+I have also submitted a medium risk
+
+{Reactions}
+💯 
+
+[09/22/2022 1:25 PM] supernovahs
+But I would not consider it high
+
+
+[09/22/2022 4:11 PM] haruxe
+good shit, very solid codebase imo
+
+
+[09/22/2022 4:12 PM] haruxe
+Projects starting to realise how to make auditors happy with good docs and comments :PagChomp:
+
+{Reactions}
+💯 
+
+[09/22/2022 4:50 PM] johnnytime
+Definitely, could barely find any problems
+
+
+[09/22/2022 5:10 PM] rustyrabbit
+Almighty admin design makes it hard to argue some points though.
+
+{Reactions}
+👆 
+
+[09/22/2022 6:10 PM] 0xa5df
+Can we please not discuss bug-related issues before the contest ends?
+I think the channel should stick to technical content like questions about code, running test etc. and not discuss the amount of bugs or security analysis of the code
+
+{Reactions}
+👍 (21) 👆 (8) nice (3) C4Keycap (3) hi5 (3) same (4) 
+
+[09/22/2022 11:20 PM] pedr02b2
+report in thank you for the oppertunity to work on your project
+
+
+[09/23/2022 4:31 PM] supernovahs
+Documentation was good
+
+
+[09/23/2022 8:02 PM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **VTVL** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the **VTVL** team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+{Reactions}
+👍 (28) 4739_Skeletor 
+
+[09/23/2022 8:02 PM] rokinot
+good contest
+
+
+[09/23/2022 8:43 PM] Franfran#5067
+Nice
+
+
+[09/24/2022 2:09 AM] _oceansky
+Thank you VTVL, comeback for more contest!😀
+
+
+[10/21/2022 6:25 PM] yongkiws
+Hi guys! When results and awards will be announced?
+
+{Reactions}
+🤔 
+
+[10/23/2022 9:51 PM] ladboy233
+reward pr is out
+
+
+[10/23/2022 9:58 PM] JohnSmith#1623
+$9 for gas 🥲
+
+
+[10/23/2022 10:05 PM] Noah3o6#2496
+where to see?
+
+
+[10/23/2022 10:14 PM] JohnSmith#1623
+https://github.com/code-423n4/code423n4.com/pull/4567/files
+
+{Reactions}
+thankyou 
+
+[10/23/2022 10:16 PM] Noah3o6#2496
+thank you
+
+
+[10/24/2022 12:04 AM] neko_nyaa
+Wow M-01 has 44 dupes
+
+
+[10/24/2022 12:08 AM] JohnSmith#1623
+and I did not get it, those 74 cents coud be mine 😀
+
+{Reactions}
+😂 (3) 
+
+[10/24/2022 12:09 AM] neko_nyaa
+I'm sure we both feel honored to somehow not have found it
+
+
+[10/24/2022 1:03 AM] _oceansky
+hahaha, i'm dead last on the list , still thank you for $9
+
+{Reactions}
+nice 
+
+[10/24/2022 6:29 AM] pheonix244001
+My name is not in that list . Did my findings were wrong or something else?
+
+
+[10/24/2022 7:05 AM] zzykxx
+It's possible all your findings are deemed invalid, but you can double check once the report/repo is public
+
+
+[10/24/2022 1:27 PM] adriro
+M-01 paid 74 cents 😂 we all saw that
+
+{Reactions}
+😂 (4) 
+
+[10/24/2022 3:02 PM] itsmetechjay
+🤑 🎉 Awards for **VTVL**:
+
+$3,561.20 USDC » @pashov 
+$3,030.46 USDC » @sorryNotsorry 
+$1,611.81 USDC » @Respx 
+$1,383.16 USDC » @fatherOfBlocks 
+$1,364.31 USDC » @m9800 
+$1,355.96 USDC » @wagmi 
+$865.91 USDC » CertoraInc @egjlmn1 , @Ori Dabush, @shakedwinder, @RoiEvenHaim, @ItayG)
+$805.45 USDC » @csanuragjain 
+$794.93 USDC » @TomJ 
+$636.42 USDC » @hansfriese 
+$567.72 USDC » @ayeslick 
+$552.98 USDC » @Roman 
+$488.19 USDC » @rbserver 
+$449.83 USDC » KIntern_NA (@TrungOre, @duc)
+$416.86 USDC » @neko_nyaaaaaaaaaaaaaaaaaaaaaaaaa 
+$416.86 USDC » @rokinot 
+$408.51 USDC » @zhuXKET 
+$408.51 USDC » @neumo 
+$408.51 USDC » @bin2chen 
+$389.66 USDC » @Trust 
+$388.92 USDC » @wastewa 
+$315.24 USDC » @datapunk 
+$296.39 USDC » @0xv0id 
+$296.39 USDC » @dipp 
+$296.39 USDC » @wuwe1 
+$280.92 USDC » @IllIllI 
+$279.60 USDC » @Ruhum 
+$270.52 USDC » @obront 
+$269.78 USDC » @RustyRabbit 
+$265.64 USDC » @0xSmartContract 
+$246.04 USDC » @0xA5DF 
+$246.04 USDC » @Pedroais 
+$237.98 USDC » @pcarranzav 
+$236.95 USDC » @ElKu 
+$229.38 USDC » @Czar102 
+$228.64 USDC » @sashik_eth 
+$227.92 USDC » @Thunder 
+$218.09 USDC » @0x52 
+$218.09 USDC » @0xdapper 
+$218.09 USDC » @eierina 
+$193.67 USDC » @AkshaySrivastav 
+$177.68 USDC » @JohnSmith 
+$148.57 USDC » @__141345__ 
+$144.64 USDC » @djxploit 
+$136.27 USDC » @Deleted User 
+$136.27 USDC » @zzzitron 
+$116.68 USDC » @hyh 
+$116.68 USDC » @MiloTruck 
+$75.74 USDC » @Rotcivegaf 
+$73.90 USDC » @JLevick 
+$63.75 USDC » @code-cipher 
+$61.48 USDC » @supernova 
+$61.09 USDC » @anon 
+$60.77 USDC » @Chom 
+$60.77 USDC » @ak1
+$60.12 USDC » @0xNazgul 
+$59.40 USDC » @0x1f8b 
+$52.42 USDC » @rajatbeladiya 
+$52.42 USDC » @joestakey 
+$51.68 USDC » @Bernd 
+$47.42 USDC » @c3phas 
+$46.34 USDC » @lukris02 
+$44.82 USDC » @pfapostol 
+$43.65 USDC » @ajtra 
+$41.91 USDC » @imare 
+$35.87 USDC » @cryptostellar5 
+$35.17 USDC » @Deivitto 
+$31.10 USDC » @gogo 
+$31.10 USDC » @Bnke 
+$31.09 USDC » @thinklab  
+$31.09 USDC » @JC
+$31.09 USDC » @durianSausage 
+$30.68 USDC » @Diana  
+$30.45 USDC » @brgltd 
+$29.04 USDC » @ladboy233小伙子 
+$28.91 USDC » @Tomo | NinjAudit 
+$28.77 USDC » @Rolezn 
+$28.69 USDC » @seyni 
+$28.68 USDC » @0xbepresent 
+$28.68 USDC » @peanuts
+$28.68 USDC » OptimismSec (@100proof, @Tofunmi)
+$28.68 USDC » @d3e4 
+$28.65 USDC » RockingMiles (@robee, @pants)
+$28.65 USDC » @Waze 
+$28.24 USDC » @tnevler 
+$28.24 USDC » @Funen 
+$28.24 USDC » @a12jmx 
+$28.18 USDC » @Prasant Gupta 
+$28.18 USDC » @Sm4rty 
+$28.18 USDC » @martin11 
+$28.01 USDC » @delfin454000 
+$28.01 USDC » @leosathya
+
+{Reactions}
+🎉 (7) 🙏 (2) 👏 (2) 
+
+[10/24/2022 3:03 PM] itsmetechjay
+$27.97 USDC » @RaymondFam 
+$27.97 USDC » @Rohan 
+$27.97 USDC » @EricTee 
+$27.97 USDC » @millers.planet 
+$27.95 USDC » @aysha 
+$27.95 USDC » @Christian Kuri 
+$27.95 USDC » V_B (@Barichek, @Vlad B | zkSync)
+$27.95 USDC » @CodingNameKiki 
+$27.95 USDC » @karanctf 
+$27.95 USDC » @ret2basic.eth 
+$27.95 USDC » @medikko 
+$27.94 USDC » @slowmoses 
+$27.94 USDC » @ReyAdmirado 
+$27.94 USDC » @B2 
+$27.94 USDC » @peiw 
+$27.94 USDC » @0X040 
+$27.94 USDC » @carrotsmuggler 
+$27.94 USDC » @ikbkln 
+$27.94 USDC » @async 
+$27.94 USDC » @sach1r0 
+$27.94 USDC » @rvierdiiev 
+$27.94 USDC » @eighty 
+$27.94 USDC » @Ignacio 
+$27.94 USDC » @bobirichman7542 
+$27.94 USDC » @got_targ 
+$27.94 USDC » @nalus 
+$27.94 USDC » @cryptphi 
+$27.94 USDC » @SooYa 
+$27.94 USDC » @tibthecat 
+$27.94 USDC » @Natzuu 
+$27.94 USDC » @indijanc 
+$27.94 USDC » @2997ms 
+$27.94 USDC » @PENGUN 
+$27.94 USDC » @MasterCookie 
+$27.94 USDC » @StevenL 
+$27.94 USDC » @bulej93 
+$27.94 USDC » @Diraco 
+$27.94 USDC » @0v3rf10w 
+$27.94 USDC » @0x85102 
+$27.94 USDC » @Yiko 
+$23.67 USDC » @Bahurum 
+$20.42 USDC » @hatch 
+$19.59 USDC » @0xmatt 
+$19.59 USDC » @cccz 
+$19.59 USDC » @innertia 
+$19.59 USDC » @lucyoa 
+$19.59 USDC » @zzykxx 
+$18.92 USDC » @0x5rings 
+$18.92 USDC » @ubermensch 
+$18.87 USDC » 0xf15ers (@remora0, @twojoy)
+$18.87 USDC » @Dravee 
+$18.87 USDC » @JohnnyTime 
+$18.86 USDC » @Aeros 
+$18.86 USDC » @yongskiws 
+$18.86 USDC » @romand 
+$18.86 USDC » @dic0de 
+$18.86 USDC » @peritoflores 
+$18.86 USDC » @sikorico 
+$18.86 USDC » @Margaret 
+$18.86 USDC » @pedr02b2 
+$18.86 USDC » @ch13fd357r0y3r 
+$9.82 USDC » @Junnon 
+$9.82 USDC » @Atarpara 
+$9.82 USDC » @jag 
+$9.82 USDC » @DimitarDimitrov 
+$9.82 USDC » @adriro 
+$9.32 USDC » @zishansami 
+$9.32 USDC » @ch0bu 
+$9.32 USDC » @SnowMan
+$9.09 USDC » @Saintcode_ 
+$9.09 USDC » @0xsam 
+$9.09 USDC » @gianganhnguyen 
+$9.09 USDC » WilliamAmbrozic
+$9.09 USDC » @Tomio 
+$9.09 USDC » @samruna 
+$9.09 USDC » @yaemsobak 
+$9.09 USDC » @emrekocak 
+$9.09 USDC » @Tadashi 
+$9.09 USDC » @tgolding55 
+$9.09 USDC » @Ocean_Sky 
+$9.09 USDC » @!0xcaventa 
+$9.09 USDC » @beardofginger 
+$9.09 USDC » @dharma09 
+$9.09 USDC » @malinariy 
+$9.09 USDC » @lucacez 
+$9.09 USDC » @subtle77 
+$9.09 USDC » @0xDanielC 
+$9.09 USDC » mics
+$9.09 USDC » w0Lfrum
+$9.09 USDC » @hxzy 
+$9.09 USDC » @Amithuddar 
+$9.09 USDC » @Tagir2003 
+$9.09 USDC » @0xc0ffEE 
+$9.09 USDC » Satyam_Sharma
+$9.09 USDC » @Noah3o6 
+$9.09 USDC » @jpserrat 
+$9.09 USDC » @Matin 
+$9.09 USDC » @Sta1400 
+$9.09 USDC » @0xpathfindr 
+$9.09 USDC » @francoHacker 
+$0.74 USDC » @cRat1st0s 
+$0.74 USDC » @cryptonue 
+$0.74 USDC » @Franfran 
+$0.74 USDC » GimelSec (@rayn | GimelSec, @sces60107 | GimelSec)
+$0.74 USDC » @JGcarv 
+$0.74 USDC » @Soosh
+
+
+[10/24/2022 3:03 PM] itsmetechjay
+🏁 Findings summary
+---------------------------
+High risk findings: 23 total, 2 unique
+Med risk findings: 94 total, 10 unique
+Gas optimization reports: 141
+QA reports: 135 
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+*Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions. *
+
+{Reactions}
+C4Keycap (3) 💀 
+
+[10/24/2022 3:43 PM] johnnytime
+Lol 18$ 😂
+
+
+[10/24/2022 3:48 PM] 0xbepresent
+At least my first med. Ahaha
+
+{Reactions}
+😂 (2) 
+
+[10/24/2022 3:56 PM] trust90
+Grats @pashov , hard work pays off
+
+{Reactions}
+👏 
+
+[10/24/2022 4:04 PM] anonnp
+Thank you ser! 🙏hustle and it works out
+
+
+[10/24/2022 4:05 PM] 0xsorrynotsorry
+M-05 is a mindful finding @pashov 🔥
+
+{Reactions}
+2676_Pepe_Okei_Sighn (2) 🥹 
+
+[10/24/2022 4:43 PM] cryptostaker
+Congrats all ~ where do I read the findings?
+
+
+[10/24/2022 5:28 PM] minh___
+for now, only backstage has access, you will have to wait until the report is out
+
+
+[10/24/2022 5:49 PM] cryptostaker
+I see, thank you.
+
+
+[10/24/2022 7:55 PM] rustyrabbit
+M-05 makes it clear the name of the game is to find an obscure bug, not the highest risk level. M-05 $3011 while H-01 is $218.
+
+
+[10/24/2022 8:14 PM] zzykxx
+a.k.a. providing the most value
+
+
+[10/24/2022 8:16 PM] rustyrabbit
+true, it also incentivizes you to keep looking
+
+
+[10/24/2022 8:16 PM] rustyrabbit
+Just didn't realize the difference could be that big.
+
+
+[10/24/2022 9:04 PM] jagstock
+Can we see the report ?
+
+
+[10/24/2022 9:05 PM] Aeros#7185
+My first payout, LET'S GOOO 💪
+
+
+[10/24/2022 9:05 PM] Aeros#7185
+The report isn't out yet, only backstage people have access
+
+{Reactions}
+👍 
+
+[10/24/2022 9:17 PM] rustyrabbit
+Not unless you're certified with backstage access. But you van see nr of findings and payout https://discord.com/channels/810916927919620096/1021425231023312936/1033865965781405816
+
+{Reactions}
+👍 
+
+[10/24/2022 11:25 PM] franco_btc
+thanks..
+
+
+[10/25/2022 10:23 AM] johnnytime
+What is Q- finding?
+
+
+[10/25/2022 10:31 AM] neko_nyaa
+QA report
+
+
+[10/25/2022 4:29 PM] johnnytime
+Thanks
+
+
+[10/26/2022 6:07 AM] supernovahs
+Where is the report published?
+
+
+[11/02/2022 2:56 AM] rohan16
+Today pr has been generated
+
+
+[11/02/2022 2:57 AM] rohan16
+By 24hrs it would be on the website
+
+
+[11/02/2022 3:26 AM] neko_nyaa
+<https://code4rena.com/reports/2022-09-vtvl> already up in fact
+
+
+[11/03/2022 2:30 PM] adriro
+surprised to see M03 as medium
+
+
+[11/03/2022 2:30 PM] leosathya#5569
+is payout already sent??
+
+
+[11/03/2022 2:49 PM] rohan16
+not yet
+
+
+[11/03/2022 7:23 PM] ladboy233
+https://github.com/code-423n4/2022-09-vtvl-findings/issues/6
+
+{Embed}
+https://github.com/code-423n4/2022-09-vtvl-findings/issues/6
+Reentrancy may allow an admin to steal funds · Issue #6 · code-423n...
+Lines of code https://github.com/code-423n4/2022-09-vtvl/blob/main/contracts/VTVLVesting.sol#L394-L411 Vulnerability details Impact If the token is reentrant, an admin can steal all tokens locked i...
+Code4rena - ARCHIVE-Q3-2022 - ☑vtvl-sept20 [1021425231023312936].txt_Files/6-7619B
+
+
+[11/03/2022 7:23 PM] ladboy233
+Confused on this one, how does reentrancy work in this case?
+
+
+[11/03/2022 7:47 PM] alextheentreprenerd
+If it's ERC777 you can hook before the transfer, meaning the balance hasn't changed and you can get it to transfer twice or more, effectively stealing the `numTokensReservedForVesting`
+
+{Reactions}
+🧐 (2) 
+
+[11/14/2022 6:28 PM] carlitox477
+Nice vector attack identified
+
+
+[11/22/2022 2:29 PM] .0xdave
+Hey guys, please explain for me. Why should we divide 2**112 by 10e18?
+
+{Attachments}
+Code4rena - ARCHIVE-Q3-2022 - ☑vtvl-sept20 [1021425231023312936].txt_Files/2022-11-22_11.29.00-E6D02.png
+
+
+[11/22/2022 4:39 PM] minh___
+it should probably be 1e18
+
+
+==============================================================
+Exported 104 message(s)
+==============================================================
